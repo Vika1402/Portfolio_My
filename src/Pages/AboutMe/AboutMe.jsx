@@ -4,9 +4,11 @@ import AboutFooter from "../../components/AboutFooter/AboutFooter";
 
 function AboutMe() {
   return (
-    <div className="mt-32 ">
+    <div className="mt-32 overflow-x-hidden">
       <div className="flex justify-center text-center">
-        <h1 className="text-[60px] text-violet-200 border-b-4 border-blue-300">About me</h1>
+        <h1 className="lg:text-[60px] text-violet-200 border-b-4 border-blue-300 text-[50px]">
+          About me
+        </h1>
       </div>
 
       <div className="mt-10 hero ">
