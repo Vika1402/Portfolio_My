@@ -8,7 +8,7 @@ function ProjectPage() {
         Projects
       </h1>
 
-      <div className="w-[100%] lg:w-[70%] flex flex-wrap justify-evenly gap-8 md:mt-[350px] ">
+      <div className="w-[100%] lg:w-[70%] flex flex-wrap justify-evenly gap-8  lg:mt-[350px] ">
         {projects &&
           projects.map((item) => {
             return (
