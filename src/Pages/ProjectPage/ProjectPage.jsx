@@ -14,7 +14,7 @@ function ProjectPage() {
             return (
               <div
                 key={item.id}
-                className={`shadow-xl card bg-base-900 w-[100%] lg:w-[40%] hover:flip lg:mb-[140px] border-b-4 border-t-4 border-violet-300   hover:animate-none ${
+                className={`shadow-xl card bg-base-900 w-[100%] lg:w-[40%] hover:flip lg:mb-[140px] border-b-4  border-violet-300   hover:animate-none ${
                   item.id === 1 || item.id === 3
                     ? " lg:translate-y-[-200px]"
                     : " lg:translate-y-[200px]"
