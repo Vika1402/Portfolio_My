@@ -15,57 +15,34 @@ const projects = [
     name: "E-Commerce App",
     tools: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     technology: "Full Stack",
-    type: "Client",
+    type: "Runing",
     description:
       "An e-commerce application with product listings, shopping cart, and secure payment integration.",
-      images:
-      "https://i.ibb.co/xX82XcF/Screenshot-2024-12-30-at-1-00-16-PM-2.png",
+    images:
+      "https://i.ibb.co/hCqShRL/Screenshot-2024-12-30-at-3-33-09-PM-2.png",
   },
   {
     id: 3,
-    name: "MoviesX",
-    tools: ["React", "Socket.io", "Node.js", "Tailwind CSS"],
-    technology: "Full Stack",
-    type: "Team",
-    description:
-      "A real-time chat application with group chat functionality and user authentication.",
-      images:
-      "https://i.ibb.co/xX82XcF/Screenshot-2024-12-30-at-1-00-16-PM-2.png",
-  },
- 
-  {
-    id: 4,
-    name: "AI Chat Bot",
-    tools: ["Next.js", "OpenAI API", "Tailwind CSS"],
+    name: "Apple-Clone",
+    tools: ["HTML", "css", "js"],
     technology: "Full Stack",
     type: "Personal",
     description:
-      "A tool that uses AI to generate blog content based on user inputs and preferences.",
-      images:
-      "https://i.ibb.co/xX82XcF/Screenshot-2024-12-30-at-1-00-16-PM-2.png",
+      "A replica of the Apple website with similar design and features.",
+    images:
+      "https://i.ibb.co/sQZmFK2/Screenshot-2024-12-30-at-3-27-57-PM-2.png",
   },
-  // {
-  //   id: 5,
-  //   name: "Weather App",
-  //   tools: ["React", "OpenWeather API", "Tailwind CSS"],
-  //   technology: "Frontend",
-  //   type: "Personal",
-  //   description:
-  //     "A weather forecasting application displaying real-time weather data for any location.",
-  //     images:
-  //     "https://i.ibb.co/xX82XcF/Screenshot-2024-12-30-at-1-00-16-PM-2.png",
-  // },
-  // {
-  //   id: 6,
-  //   name: "Pokemon Pok",
-  //   tools: ["Laravel", "MySQL", "Bootstrap"],
-  //   technology: "Backend",
-  //   type: "Client",
-  //   description:
-  //     "A content management system for creating, editing, and publishing blog posts.",
-  //     images:
-  //     "https://i.ibb.co/xX82XcF/Screenshot-2024-12-30-at-1-00-16-PM-2.png",
-  // },
+  {
+    id: 4,
+    name: "Cypto Tracker Solution",
+    tools: ["React", "Js", "Tailwind CSS", "React-icon"],
+    technology: "Frontend",
+    type: "Personal",
+    description:
+      "A cryptocurrency tracking tool with real-time data and a user-friendly interface.",
+    images:
+      "https://i.ibb.co/VWrb64t/Screenshot-2024-12-30-at-3-17-15-PM-2.png",
+  },
 ];
 
 export default projects;

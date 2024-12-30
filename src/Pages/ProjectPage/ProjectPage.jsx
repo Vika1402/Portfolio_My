@@ -14,7 +14,7 @@ function ProjectPage() {
             return (
               <div
                 key={item.id}
-                className={`shadow-xl card bg-base-900 w-[100%] lg:w-[40%] hover:flip lg:mb-[140px] border-b-4 border-t-4 border-violet-300 animate-pulse hover:animate-none ${
+                className={`shadow-xl card bg-base-900 w-[100%] lg:w-[40%] hover:flip lg:mb-[140px] border-b-4 border-t-4 border-violet-300   hover:animate-none ${
                   item.id === 1 || item.id === 3
                     ? " lg:translate-y-[-200px]"
                     : " lg:translate-y-[200px]"
@@ -22,7 +22,7 @@ function ProjectPage() {
                  `}
               >
                 <figure className="px-10 pt-10">
-                  <img src={item?.images} alt="Shoes" className="rounded-xl" />
+                  <img src={item?.images} alt="Shoes" className="rounded-xl border-2" />
                 </figure>
                 <div className="items-center text-center card-body">
                   <h2 className="card-title">{item.name}</h2>
