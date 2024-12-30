@@ -5,6 +5,7 @@ import AboutMe from "./Pages/AboutMe/AboutMe";
 import MernStackIcons from "./components/MernIcon/MernStackIcons";
 import ServicePage from "./Pages/ServicePage/ServicePage";
 import ProjectPage from "./Pages/ProjectPage/ProjectPage";
+import Footer from "./Pages/Footer/Footer";
 export default function App() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function App() {
       <AboutMe />
       <ServicePage />
       <ProjectPage />
+      <Footer />
     </>
   );
 }

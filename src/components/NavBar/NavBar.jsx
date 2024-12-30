@@ -38,8 +38,10 @@ function NavBAr() {
             </ul>
           </div>
           <a className="btn btn-ghost text-xl tracking-[.40rem] lg:text-2xl">
-            VIKAS
+            VIKA
+            <span className="loading loading-infinity loading-lg w-[3rem]"></span>
           </a>
+          
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 lg:text-2xl">
