@@ -3,8 +3,8 @@ import React from "react";
 function HomePage() {
   return (
     <div className="flex flex-col gap-10">
-      <div className="flex items-center justify-center  mt-10 py-2">
-        <div className="bg-red-300  w-[180px] h-[180px] md:w-[350px] md:h-[350px] flex items-center justify-center rounded-full">
+      <div className="flex items-center justify-center  mt-16 py-2">
+        <div className="bg-red-300 mt-10 w-[180px] h-[180px] md:w-[350px] md:h-[350px] flex items-center justify-center rounded-full">
           <img
             className=" w-[180px] h-[180px] md:w-[350px] md:h-[350px] rounded-full"
             src="https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-173524.jpg?ga=GA1.1.2024936588.1734079803&semt=ais_hybrid"
