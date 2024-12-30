@@ -4,7 +4,7 @@ import AboutFooter from "../../components/AboutFooter/AboutFooter";
 
 function AboutMe() {
   return (
-    <div className="mt-22 overflow-x-hidden">
+    <div className="mt-22 overflow-x-hidden mb-20">
       <div className="flex justify-center text-center">
         <h1 className="lg:text-[60px] text-violet-200 border-b-4 border-blue-300 text-[30px]">
           About me
