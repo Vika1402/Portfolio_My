@@ -3,7 +3,7 @@ import React from "react";
 function AboutFooter() {
   return (
     <div>
-      <div className="flex w-full justify-center gap-8 lg:gap-16 p-4 text-center">
+      <div className="flex items-center justify-center w-full ml-6 space-x-6 overflow-hidden sm:ml-0 lg:gap-14">
         <div className="flex flex-col items-center">
           <h1 className=" text-[2rem] lg:text-[5rem] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
             10+

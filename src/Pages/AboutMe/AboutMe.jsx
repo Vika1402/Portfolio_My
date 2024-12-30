@@ -5,12 +5,12 @@ import AboutFooter from "../../components/AboutFooter/AboutFooter";
 function AboutMe() {
   return (
     <div className="mt-32 ">
-      <div className="text-center flex justify-center">
+      <div className="flex justify-center text-center">
         <h1 className="text-[60px] text-violet-200 border-b-4 border-blue-300">About me</h1>
       </div>
 
-      <div className="hero bg-base-200  mt-10 ">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="mt-10 hero ">
+        <div className="flex-col w-full hero-content lg:flex-row-reverse">
           <div className="w-[30%]">
             <img
               className="h-[100%] w-[100%] rounded-md object-center object-cover"
@@ -19,8 +19,8 @@ function AboutMe() {
             />
           </div>
 
-          <div className="w-[90%] lg:w-[70%] ">
-            <p className="py-6 text-xl lg:text-[25px]">
+          <div className="w-[100%] lg:w-[70%] ">
+            <p className="py-6 text-xl lg:text-[25px] text-center">
               Hi, I’m Alex, a passionate web developer with a love for creating
               intuitive, user-focused digital experiences. I specialize in
               front-end technologies like React, Tailwind CSS, and JavaScript,
