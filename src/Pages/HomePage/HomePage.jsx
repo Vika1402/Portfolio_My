@@ -4,10 +4,10 @@ function HomePage() {
   return (
     <div className="flex flex-col gap-10 mb-20">
       <div className="flex items-center justify-center  mt-16 py-2">
-        <div className="bg-red-300 mt-10 w-[180px] h-[180px] md:w-[350px] md:h-[350px] flex items-center justify-center rounded-full">
+        <div className=" mt-10 w-[180px] h-[180px] md:w-[350px] md:h-[350px] flex items-center justify-center rounded-full">
           <img
-            className=" w-[180px] h-[180px] md:w-[350px] md:h-[350px] rounded-full"
-            src="https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-173524.jpg?ga=GA1.1.2024936588.1734079803&semt=ais_hybrid"
+            className=" w-[100%] h-[100%] rounded-full object-cover"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQErX1KBGpRdwQ/profile-displayphoto-shrink_800_800/B4DZQTB5FEG0E0-/0/1735486051850?e=1741219200&v=beta&t=pkPxTMo2-S3fcv30bEO470GRnlxOV7PYqk9oWaIF-D4"
             alt=""
           />
         </div>

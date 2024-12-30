@@ -16,14 +16,14 @@ function AboutMe() {
           <div className="w-[30%]">
             <img
               className="h-[100%] w-[100%] rounded-md object-center object-cover"
-              src="https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-173524.jpg?ga=GA1.1.2024936588.1734079803&semt=ais_hybrid"
+              src="https://media.licdn.com/dms/image/v2/D4D03AQErX1KBGpRdwQ/profile-displayphoto-shrink_800_800/B4DZQTB5FEG0E0-/0/1735486051850?e=1741219200&v=beta&t=pkPxTMo2-S3fcv30bEO470GRnlxOV7PYqk9oWaIF-D4"
               alt=""
             />
           </div>
 
           <div className="lg:w-[70%]  w-[100%]">
             <p className="py-6 pl-4 pr-6 text-xl lg:text-[25px] text-center">
-              Hi, I’m Alex, a passionate web developer with a love for creating
+              Hi, I’m Vikas, a passionate web developer with a love for creating
               intuitive, user-focused digital experiences.{" "}
               <span className="hidden md:block">
                 I specialize in front-end technologies like React, Tailwind CSS,
