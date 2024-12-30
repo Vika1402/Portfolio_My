@@ -8,9 +8,9 @@ const skills = [
 
 const SkillRatings = () => {
   return (
-    <div className="flex flex-col justify-center w-full gap-10 m-10 mt-4">
+    <div className="flex-col  m-10 mt-4 space-y-6 md:gap-10">
       {skills.map((skill, index) => (
-        <div key={index} className="flex items-center gap-[20px] text-2xl">
+        <div key={index} className="flex items-center  justify-center  md:text-2xl text-[1rem]">
           <span className="text-yellow-500">{skill.name}</span>
           <div className="space-x-6 rating">
             {Array.from({ length: 5 }, (_, i) => (

@@ -11,7 +11,7 @@ function AboutMe() {
         </h1>
       </div>
 
-      <div className="mt-10 hero ">
+      <div className="flex mt-10 hero">
         <div className="flex-col w-full hero-content lg:flex-row-reverse">
           <div className="w-[30%]">
             <img
@@ -21,13 +21,15 @@ function AboutMe() {
             />
           </div>
 
-          <div className="lg:w-[70%] ">
+          <div className="lg:w-[70%]  w-[100%]">
             <p className="py-6 pl-4 pr-6 text-xl lg:text-[25px] text-center">
               Hi, I’m Alex, a passionate web developer with a love for creating
-              intuitive, user-focused digital experiences. I specialize in
+              intuitive, user-focused digital experiences. <span className="hidden md:block">
+              I specialize in
               front-end technologies like React, Tailwind CSS, and JavaScript,
               but I’m also constantly exploring new tools to enhance my skills.
               When I’m not coding, share ideas!
+              </span> 
             </p>
 
             <SkillRatings />
