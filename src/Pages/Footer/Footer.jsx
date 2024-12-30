@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer footer-center bg-base-200 text-xl lg:text-2xl rounded p-10 mt-[150px]">
-      <nav className="grid grid-flow-col gap-4">
+    <footer className="footer footer-center bg-base-200 text-xl lg:text-2xl rounded p-6 mt-[150px]">
+      <nav className="grid grid-flow-col gap-4 text-nowrap">
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Email</a>
@@ -52,7 +52,6 @@ function Footer() {
           portfolio
         </p>
       </aside>
-      <span className="loading loading-infinity loading-lg"></span>
     </footer>
   );
 }

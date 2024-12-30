@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavBAr() {
   return (
@@ -27,10 +28,10 @@ function NavBAr() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <a>Projects</a>
+                <Link to={"/aboutme"}>Projects</Link>
               </li>
               <li>
                 <a>Contact</a>
@@ -41,21 +42,23 @@ function NavBAr() {
             VIKA
             <span className="loading loading-infinity loading-lg w-[3rem]"></span>
           </a>
-          
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 lg:text-2xl">
             <li>
-              <a>Home</a>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <a>AboutMe</a>
+              <Link to={"/aboutme"}>About me</Link>
             </li>
             <li>
-              <a>Projects</a>
+              <Link to={"/projects"}>Projects</Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link to={"/services"}>Services</Link>
+            </li>
+            <li>
+              <Link to={"/footer"}>Contact</Link>
             </li>
           </ul>
         </div>

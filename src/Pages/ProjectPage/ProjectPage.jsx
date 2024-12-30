@@ -3,8 +3,8 @@ import projects from "./projects";
 
 function ProjectPage() {
   return (
-    <div className="flex flex-col items-center justify-center mt-20 text-center ">
-      <h1 className=" text-[30px] lg:text-[60px] text-violet-200  border-blue-300 ">
+    <div className="flex flex-col items-center justify-center mt-22 text-center ">
+      <h1 className=" text-[30px] lg:text-[60px] text-violet-200  border-blue-300 border-b-4">
         Projects
       </h1>
 
