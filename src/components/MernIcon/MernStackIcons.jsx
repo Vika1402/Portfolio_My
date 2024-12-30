@@ -12,49 +12,49 @@ import {
 
 const MernStackIcons = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-20 mt-16 text-center">
+    <div className="flex flex-wrap items-center justify-center gap-16 mt-16 text-center p-auto">
       <div className="icon-item">
-        <FaHtml5 className="text-orange-500 text-5xl" />
+        <FaHtml5 className="text-5xl text-orange-500" />
         <span className="mt-2 text-xl">HTML5</span>
       </div>
 
-      <div className="icon-item  lg:translate-y-16">
-        <FaCss3 className="text-blue-500 text-5xl" />
+      <div className="icon-item lg:translate-y-16">
+        <FaCss3 className="text-5xl text-blue-500" />
         <span className="mt-2 text-xl">CSS3</span>
       </div>
 
       <div className="icon-item">
-        <FaJs className="text-yellow-500 text-5xl" />
+        <FaJs className="text-5xl text-yellow-500" />
         <span className="mt-2 text-xl">JavaScript</span>
       </div>
 
       <div className="icon-item lg:translate-y-16">
-        <FaBootstrap className="text-purple-500 text-5xl" />
+        <FaBootstrap className="text-5xl text-purple-500" />
         <span className="mt-2 text-xl">Bootstrap</span>
       </div>
 
       <div className="icon-item">
-        <FaJava className="text-blue-500 text-5xl" />
+        <FaJava className="text-5xl text-blue-500" />
         <span className="mt-2 text-xl">Java</span>
       </div>
 
       <div className="icon-item lg:translate-y-16">
-        <FaDatabase className="text-green-500 text-5xl" />
+        <FaDatabase className="text-5xl text-green-500" />
         <span className="mt-2 text-xl">MongoDB</span>
       </div>
 
       <div className="icon-item">
-        <FaServer className="text-gray-500 text-5xl" />
+        <FaServer className="text-5xl text-gray-500" />
         <span className="mt-2 text-xl">Express.js</span>
       </div>
 
       <div className="icon-item lg:translate-y-16">
-        <FaReact className="text-blue-500 text-5xl" />
+        <FaReact className="text-5xl text-blue-500" />
         <span className="mt-2 text-xl">React</span>
       </div>
 
       <div className="icon-item">
-        <FaNodeJs className="text-green-500 text-5xl" />
+        <FaNodeJs className="text-5xl text-green-500" />
         <span className="mt-2 text-xl">Node.js</span>
       </div>
     </div>

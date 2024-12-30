@@ -21,8 +21,8 @@ function AboutMe() {
             />
           </div>
 
-          <div className="w-[100%] lg:w-[70%] ">
-            <p className="py-6 text-xl lg:text-[25px] text-center">
+          <div className="lg:w-[70%] ">
+            <p className="py-6 pl-4 pr-6 text-xl lg:text-[25px] text-center">
               Hi, I’m Alex, a passionate web developer with a love for creating
               intuitive, user-focused digital experiences. I specialize in
               front-end technologies like React, Tailwind CSS, and JavaScript,
