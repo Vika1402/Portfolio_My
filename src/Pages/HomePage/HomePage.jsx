@@ -16,6 +16,7 @@ function HomePage() {
         <h1 className=" text-[40px]  lg:text-[66px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text relative">
           I’m Vikas Kumar
         </h1>
+        <h1 className="text-[40px] text-black">Gradient Booster Expert</h1>
 
         <h1 className="text-[50px] lg:text-[70px]">
           Full Stack Developer Based India.
