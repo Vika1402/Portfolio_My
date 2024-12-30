@@ -49,7 +49,7 @@ function Footer() {
       </nav>
       <aside>
         <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by vikas
+          Copyright © {new Date().getFullYear()} - All demo right reserved by vikas
           portfolio
         </p>
       </aside>
