@@ -6,6 +6,7 @@ function ServicePage() {
       <h1 className=" text-[30px] lg:text-[60px] text-violet-200 border-b-4 border-blue-300">
         Services
       </h1>
+
       <div className="w-[100%] lg:w-[80%] flex flex-wrap justify-evenly ">
         {services &&
           services.map((item) => {

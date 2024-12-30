@@ -25,7 +25,7 @@ const services = [
   },
   {
     index: 4,
-    name: "Content Writer",
+    name: "Ai Content Writer",
     description:
       "Write engaging, informative, and SEO-friendly content for blogs, websites, and articles.",
     image:

@@ -4,6 +4,7 @@ import { tiny } from "./assets/tiny.mp4";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import MernStackIcons from "./components/MernIcon/MernStackIcons";
 import ServicePage from "./Pages/ServicePage/ServicePage";
+import ProjectPage from "./Pages/ProjectPage/ProjectPage";
 export default function App() {
   return (
     <>
@@ -11,7 +12,8 @@ export default function App() {
       <HomePage />
       <MernStackIcons />
       <AboutMe />
-      <ServicePage/>
+      <ServicePage />
+      <ProjectPage />
     </>
   );
 }
