@@ -1,5 +1,5 @@
 import React from "react";
-
+import MernStackIcons from "../../components/MernIcon/MernStackIcons";
 function HomePage() {
   return (
     <div className="flex flex-col gap-10 mb-20">
@@ -36,6 +36,7 @@ function HomePage() {
           My Resume
         </button>
       </div>
+      <MernStackIcons />
     </div>
   );
 }
