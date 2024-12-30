@@ -3,8 +3,8 @@ import services from "./service.js";
 function ServicePage() {
   return (
     <div className="flex flex-col items-center justify-center mt-20 text-center ">
-      <h1 className=" text-[40px] lg:text-[60px] text-violet-200 border-b-4 border-blue-300">
-        My services
+      <h1 className=" text-[30px] lg:text-[60px] text-violet-200 border-b-4 border-blue-300">
+        Services
       </h1>
       <div className="w-[100%] lg:w-[80%] flex flex-wrap justify-evenly ">
         {services &&
