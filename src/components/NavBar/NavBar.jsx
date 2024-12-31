@@ -31,10 +31,10 @@ function NavBAr() {
                 <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <Link to={"/aboutme"}>Projects</Link>
+                <Link to={"/projects"}>Projects</Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to={"/footer"}>Contact</Link>
               </li>
             </ul>
           </div>
