@@ -7,6 +7,7 @@ import ServicePage from "./Pages/ServicePage/ServicePage";
 import ProjectPage from "./Pages/ProjectPage/ProjectPage";
 import Footer from "./Pages/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
+import PageNotFound from "./Pages/PageNotFound/PageNotFound";
 export default function App() {
   return (
     <>
@@ -18,7 +19,7 @@ export default function App() {
             <div>
               {/* Render all components on the HomePage */}
               <HomePage />
-              
+
               <AboutMe />
               <ServicePage />
               <ProjectPage />
@@ -30,6 +31,8 @@ export default function App() {
         <Route path="/services" element={<ServicePage />} />
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/footer" element={<Footer />} />
+
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
   );

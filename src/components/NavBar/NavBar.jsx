@@ -63,9 +63,12 @@ function NavBAr() {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-outline btn-secondary rounded-full text-white lg:text-xl">
+          <Link
+            to={"/footer"}
+            className="btn btn-outline btn-secondary rounded-full text-white lg:text-xl"
+          >
             Contact with me
-          </button>
+          </Link>
         </div>
       </div>
     </div>
