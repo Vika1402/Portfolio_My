@@ -1,6 +1,7 @@
 import React from "react";
 import MernStackIcons from "../../components/MernIcon/MernStackIcons";
-import { useNavigate } from "react-router-dom";
+import resume from "../../resume/resume.pdf";
+import { Link, useNavigate } from "react-router-dom";
 function HomePage() {
   const navigate = useNavigate();
   return (
@@ -39,9 +40,12 @@ function HomePage() {
         >
           Contact With Me
         </button>
-        <button className="btn btn-outline rounded-full text-xl ">
+        <a
+          className="btn btn-outline rounded-full text-xl"
+          href="https://drive.google.com/file/d/1lZzUlDzX3igyPVGUZjPL8JYqeN11T6Al/view?usp=drive_link"
+        >
           My Resume
-        </button>
+        </a>
       </div>
       <MernStackIcons />
     </div>
