@@ -1,7 +1,7 @@
 import React from "react";
 import MernStackIcons from "../../components/MernIcon/MernStackIcons";
-import resume from "../../resume/resume.pdf";
-import { Link, useNavigate } from "react-router-dom";
+
+import { useNavigate } from "react-router-dom";
 function HomePage() {
   const navigate = useNavigate();
   return (
