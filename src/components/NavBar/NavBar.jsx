@@ -39,7 +39,7 @@ function NavBAr() {
             </ul>
           </div>
           <a className="btn btn-ghost text-xl tracking-[.40rem] lg:text-2xl">
-            VIKA
+            ᴠɪᴋꫝꜱ
             <span className="loading loading-infinity loading-lg w-[3rem]"></span>
           </a>
         </div>

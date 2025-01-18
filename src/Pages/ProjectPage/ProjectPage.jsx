@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "./projects";
+import { Link } from "react-router-dom";
 
 function ProjectPage() {
   return (
@@ -32,9 +33,14 @@ function ProjectPage() {
                   <h2 className="card-title">{item.name}</h2>
                   <p className="line-clamp-2">{item.description}</p>
                   <div className="card-actions">
-                    <button className="btn btn-outline btn-info">
-                      Click to Explore
-                    </button>
+                    {item.projectLink && (
+                      <Link
+                        to={item.projectLink}
+                        className="btn btn-outline btn-info"
+                      >
+                        Click to Explore
+                      </Link>
+                    )}
                   </div>
                 </div>
               </div>

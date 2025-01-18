@@ -34,6 +34,7 @@ const projects = [
       "An e-commerce application with product listings, shopping cart, and secure payment integration.",
     images:
       "https://i.ibb.co/hCqShRL/Screenshot-2024-12-30-at-3-33-09-PM-2.png",
+    // projectLink: "https://shoptop-seven.vercel.app/",
   },
   {
     id: 4,
