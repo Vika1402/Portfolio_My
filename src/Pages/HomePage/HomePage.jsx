@@ -1,6 +1,8 @@
 import React from "react";
 import MernStackIcons from "../../components/MernIcon/MernStackIcons";
+import { useNavigate } from "react-router-dom";
 function HomePage() {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col gap-10 mb-20">
       <div className="flex items-center justify-center  mt-16 py-2">
@@ -16,7 +18,6 @@ function HomePage() {
         <h1 className=" text-[40px]  lg:text-[66px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text relative">
           I’m Vikas Kumar
         </h1>
-      
 
         <h1 className="text-[50px] lg:text-[70px]">
           Full Stack Developer Based India.
@@ -24,13 +25,18 @@ function HomePage() {
       </div>
       <div className="text-center flex justify-center">
         <p className="text-white w-[80%] lg:w-[40%] mt-2 text-[20px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-          voluptas molestiae minima! Deserunt dicta eos adipisci? Voluptates
-          alias debitis nam?
+          Hi, I’m Vikas, a passionate web developer with a love for creating
+          intuitive, user-focused digital experiences. I specialize in front-end
+          technologies like React, Tailwind CSS, and JavaScript, but I’m also
+          constantly exploring new tools to enhance my skills. When I’m not
+          coding, share ideas!
         </p>
       </div>
       <div className="flex  justify-center space-x-4 mt-6">
-        <button className="btn btn-outline btn-secondary rounded-full text-xl">
+        <button
+          onClick={() => navigate("/footer")}
+          className="btn btn-outline btn-secondary rounded-full text-xl"
+        >
           Contact With Me
         </button>
         <button className="btn btn-outline rounded-full text-xl ">

@@ -12,7 +12,7 @@ import {
 
 const MernStackIcons = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-16 mt-16 text-center p-auto">
+    <div className="flex flex-wrap items-center justify-center gap-16 mt-16 text-center p-auto mx-40">
       <div className="icon-item flex items-center">
         <FaHtml5 className=" text-4xl  lg:text-5xl text-orange-500" />
         <span className="mt-2 text-xl">HTML5</span>
