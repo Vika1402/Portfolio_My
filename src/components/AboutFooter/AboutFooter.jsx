@@ -9,7 +9,7 @@ function AboutFooter() {
             10+
           </h1>
 
-          <span className="  text-[1rem] lg:text-[2rem] text-blue-400">
+          <span className="  text-[1rem] lg:text-[2rem] text-blue-400 text-nowrap">
             Happy Skills
           </span>
         </div>
@@ -17,7 +17,7 @@ function AboutFooter() {
           <h1 className="text-[2rem] lg:text-[5rem]  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
             25+
           </h1>
-          <span className=" text-[1rem] lg:text-[2rem]   text-blue-400">
+          <span className=" text-[1rem] lg:text-[2rem]   text-blue-400 text-nowrap">
             Completed Projects
           </span>
         </div>

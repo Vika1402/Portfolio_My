@@ -40,7 +40,7 @@ function NavBAr() {
           </div>
           <a className="btn btn-ghost text-xl tracking-[.40rem] lg:text-2xl">
             ᴠɪᴋꫝꜱ
-            <span className="loading loading-infinity loading-lg w-[3rem]"></span>
+            <span className="loading loading-infinity loading-lg w-[3rem] hidden lg:block"></span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

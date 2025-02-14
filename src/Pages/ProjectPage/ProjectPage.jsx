@@ -4,22 +4,18 @@ import { Link } from "react-router-dom";
 
 function ProjectPage() {
   return (
-    <div className="flex flex-col items-center justify-center mt-22 text-center mb-20">
+    <div className="flex flex-col items-center justify-center mb-20">
       <h1 className=" text-[30px] lg:text-[60px] text-violet-200  border-blue-300 border-b-4">
         Projects
       </h1>
 
-      <div className="w-[100%] lg:w-[70%] flex flex-wrap justify-evenly gap-8  lg:mt-[350px] ">
+      <div className="w-[100%] lg:w-[70%] flex flex-wrap justify-evenly gap-8  mt-20 ">
         {projects &&
           projects.map((item) => {
             return (
               <div
                 key={item.id}
-                className={`shadow-2xl card bg-base-900 w-[100%] lg:w-[40%] hover:flip lg:mb-[140px]  border-violet-300   hover:animate-none ${
-                  item.id === 1 || item.id === 3
-                    ? " lg:translate-y-[-200px]"
-                    : " lg:translate-y-[200px]"
-                }
+                className={`shadow-2xl card bg-base-900 w-[100%] lg:w-[40%] hover:flip lg:mb-[140px]  border-violet-300   hover:animate-none 
                  `}
               >
                 <figure className="px-10 pt-10">
