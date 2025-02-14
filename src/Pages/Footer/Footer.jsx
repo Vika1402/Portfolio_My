@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className="footer footer-center bg-base-200 text-xl lg:text-2xl rounded fixed bottom-0 left-0 right-0">
-      <nav className="grid grid-flow-col gap-4 text-nowrap mt-6">
+    <footer className="footer footer-center bg-base-200 text-xl lg:text-2xl rounded p-6 mt-[150px]">
+      <nav className="grid grid-flow-col gap-4 text-nowrap">
         <Link to={"/aboutme"} className="link link-hover">
           About us
         </Link>
