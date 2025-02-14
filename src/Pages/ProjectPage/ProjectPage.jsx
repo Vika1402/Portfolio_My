@@ -22,7 +22,7 @@ function ProjectPage() {
                   <img
                     src={item?.images}
                     alt="Shoes"
-                    className="rounded-xl border-2 w-[100%] h-[100%] object-center object-cover"
+                    className="rounded-xl border-2 w-96 h-50 object-center object-cover"
                   />
                 </figure>
                 <div className="items-center text-center card-body">
