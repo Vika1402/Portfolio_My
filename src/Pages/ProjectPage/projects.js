@@ -21,7 +21,7 @@ const projects = [
       "A doctor appointment management system enabling patients to book appointments, view doctor schedules,and manage their medical history, with a user-friendly interface.",
     images:
       "https://i.ibb.co/XzLpGKq/Screenshot-2025-01-18-at-10-25-48-PM-2.png",
-    projectLink: "https://nidanappointment.vercel.app/",
+    projectLink: "https://nidan-frontend.vercel.app/",
   },
 
   {
@@ -34,7 +34,7 @@ const projects = [
       "An e-commerce application with product listings, shopping cart, and secure payment integration.",
     images:
       "https://i.ibb.co/hCqShRL/Screenshot-2024-12-30-at-3-33-09-PM-2.png",
-    // projectLink: "https://shoptop-seven.vercel.app/",
+    projectLink: "https://shoptop-seven.vercel.app/",
   },
   {
     id: 4,
