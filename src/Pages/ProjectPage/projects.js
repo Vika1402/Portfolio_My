@@ -38,14 +38,15 @@ const projects = [
   },
   {
     id: 4,
-    name: "Apple-Clone",
-    tools: ["HTML", "css", "js"],
-    technology: "Full Stack",
+    name: "Airbnb UI Clone",
+    tools: ["React", "Tailwind CSS", "JavaScript"],
+    technology: "Frontend",
     type: "Personal",
     description:
-      "A replica of the Apple website with similar design and features.",
+      "A responsive Airbnb user interface clone featuring modern design, search functionality, and interactive components.",
     images:
-      "https://i.ibb.co/sQZmFK2/Screenshot-2024-12-30-at-3-27-57-PM-2.png",
+      "https://i.ibb.co/kgc4M1cg/Screenshot-2025-03-12-at-10-41-52-PM-2.png",
+    projectLink: "https://airbbnb-hotel-view.vercel.app/",
   },
   {
     id: 5,

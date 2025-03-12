@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function HomePage() {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col gap-10 mb-20">
+    <div className="flex flex-col gap-10 mb-20 ">
       <div className="flex items-center justify-center  mt-16 py-2">
         <div className=" mt-10 w-[180px] h-[180px] md:w-[320px] md:h-[320px] flex items-center justify-center rounded-full">
           <img

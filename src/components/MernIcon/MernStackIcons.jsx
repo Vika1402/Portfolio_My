@@ -54,7 +54,7 @@ const MernStackIcons = () => {
       </div>
 
       <div className="icon-item flex items-center">
-        <FaNodeJs className="text-4xl   lg:text-5xlflex  items-center  text-green-500" />
+        <FaNodeJs className="text-4xl   lg:text-5xl flex  items-center  text-green-500" />
         <span className="mt-2 text-xl">Node.js</span>
       </div>
     </div>

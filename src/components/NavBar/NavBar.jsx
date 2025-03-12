@@ -37,10 +37,13 @@ function NavBAr() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl tracking-[.40rem] lg:text-2xl">
+        <Link
+          to={"/"}
+          className="btn btn-ghost text-xl tracking-[.40rem] lg:text-2xl"
+        >
           ᴠɪᴋꫝꜱ
           <span className="loading loading-infinity loading-lg w-[3rem] hidden lg:block"></span>
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 lg:text-2xl">
@@ -64,7 +67,7 @@ function NavBAr() {
       <div className="navbar-end">
         <Link
           to={"/footer"}
-          className="btn btn-outline btn-secondary rounded-full text-white lg:text-xl"
+          className="btn btn-outline btn-secondary rounded-full text-white lg:text-lg"
         >
           Contact with me
         </Link>
