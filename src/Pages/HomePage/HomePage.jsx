@@ -42,7 +42,7 @@ function HomePage() {
         </button>
         <a
           className="btn btn-outline rounded-full text-xl"
-          href="https://drive.google.com/file/d/1lZzUlDzX3igyPVGUZjPL8JYqeN11T6Al/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ajOZQJAmy94bm3aP0--wQTbJODBMhtaJ/view?usp=sharing"
         >
           My Resume
         </a>
