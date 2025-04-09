@@ -16,7 +16,7 @@ function AboutMe() {
           <div className="w-[30%]">
             <img
               className="h-[100%] w-[100%] rounded-md object-center object-cover"
-              src="https://media.licdn.com/dms/image/v2/D4D03AQErX1KBGpRdwQ/profile-displayphoto-shrink_400_400/B4DZQTB5FEG0E4-/0/1735486051850?e=1747267200&v=beta&t=W00DrZvbR7ERL9XXjrugDDfn1nqRJObgcb8k2mhXakg"
+              src="https://res.cloudinary.com/deo7ha4ct/image/upload/fl_preserve_transparency/v1744194501/1735486051850_iprbxv.jpg?_s=public-apps"
               alt=""
             />
           </div>
